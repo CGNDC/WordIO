@@ -1,0 +1,9 @@
+{
+	"folders": [
+		{	"path": "WordIO"		},
+		{	"path": "cgndcGateway"	},
+		{	"path": "cgndcDB"		},
+		{	"path": "WordNLP"		},
+	],
+	"settings": {}
+}

@@ -6,7 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'WordIO.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cgndcDB.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
@@ -17,7 +17,7 @@ def main():
         ) from exc
 
     if len(sys.argv) == 1 or (len(sys.argv) == 2 and sys.argv[1] == "runserver"):
-        sys.argv.append("127.0.0.1:8000")
+        sys.argv.append("127.0.0.1:8002")
     execute_from_command_line(sys.argv)
 
 
